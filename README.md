@@ -1,8 +1,11 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+vite ile olusturulmus bir todo uygulaması
 
-Currently, two official plugins are available:
+localstroge a kayıt ederek girilen görevler saklanır kaybolmaz
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+görevlerin tamamlandı ve devam etme durumları da kaybolmaz
+
+sayfalar router-dom ile arası geçiş sağlanarak uygulandı 
+
+veri yönetimi prop ile gerçekleştildi
