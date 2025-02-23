@@ -1,0 +1,109 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container header h1{
+    color: cadetblue;
+    text-align: center;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputTodo,
+.todoAddBtn{
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    margin-top: 1rem;
+}
+
+.todoAddBtn{
+    color: black;
+    background-color: thistle;
+    transition: all 0.3s;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+
+}
+
+.todoAddBtn:hover{
+    color: thistle;
+    background-color: black;
+}
+
+.iconAdd{
+    margin-left: 1rem;
+    font-size: 1.1rem;
+}
+
+.selectContainer{
+    margin: 1rem;
+}
+
+.filter{
+    width: 100%;
+    padding: 1rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.todoContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todoList{
+    min-width: 30%;
+}
+
+.todo{
+    background: white;
+    font-size: 1rem;
+    width: 100%;
+    padding: 1rem;
+}
+
+.complateBtn,
+.trashBtn{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.complateBtn{
+    background-color: green;
+}
+
+.complated{
+    opacity: 0.7;
+    text-decoration: line-through;
+}
+
+.alertWarning{
+    background-color: red;
+    text-align: center;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.alertSuccess{
+    background-color: green;
+    text-align: center;
+    padding: 1rem;
+    font-size: 2rem;
+}
